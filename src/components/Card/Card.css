@@ -1,0 +1,29 @@
+.card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: #fff;
+    overflow: hidden;
+    transition: max-width 0.3s ease;
+}
+
+.card:hover {
+    overflow-y: auto;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    overflow-wrap: break-word;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
+}

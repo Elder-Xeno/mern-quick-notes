@@ -1,0 +1,59 @@
+.NotesPage {
+  max-width: 600px;
+  margin: 80px auto 20px;
+  padding: 20px;
+  background-color: #f0e6f6;
+  color: #333;
+  border: 2px solid #9c27b0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.NotesPage h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #6a1b9a;
+}
+
+.NotesPage textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NotesPage button {
+  padding: 10px;
+  background-color: #6a1b9a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.NotesPage button:hover {
+  background-color: #49148a;
+}
+
+.NotesPage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.NotesPage li {
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
